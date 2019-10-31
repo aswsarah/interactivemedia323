@@ -18,7 +18,8 @@ h2 {
 
 p {
 	font-family: "Helvetica";
-	background-color: yellowgreen; 
+	background-color: yellowgreen;
+	letter-spacing: .50px; 
 }
 
 ol {
@@ -31,10 +32,6 @@ li{
 	color: teal;
 }
 
-#table-of-contents {
-	font-family: "Helvetica";
-	
-}
 
 #table-of-contents {
 	font-family: "Helvetica";
