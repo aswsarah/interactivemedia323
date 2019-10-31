@@ -1,0 +1,72 @@
+body {
+	background: powderblue;
+}
+
+h1 {
+	font-family: "Helvetica";
+	text-align: center;
+	font-size: 60px;
+	color: tomato;
+}
+
+h2 {
+	font-family: "Helvetica";
+	color: tomato;
+	font-style: italic;
+} 
+
+p {
+	font-family: "Helvetica";
+	background-color: yellowgreen; 
+}
+
+ol {
+	color: teal;
+}
+
+li{
+	font-family: "Helvetica";
+	line-height: 1.3;
+	color: teal;
+}
+
+#table-of-contents {
+	font-family: "Helvetica";
+	
+}
+
+#table-of-contents {
+	font-family: "Helvetica";
+	color: yellowgreen;
+}
+
+#back-to-top {
+	font-family: "Helvetica";
+	color: yellowgreen;
+}
+
+img {
+
+	 border-radius: 50%;
+	 display: block;
+  	 margin-left: auto;
+     margin-right: auto;
+  	 width: 50%;
+  	 border:3px solid coral;
+}
+}
+
+a {
+	font-family: "Garamond";
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+#four li{
+	color: blue !important;
+}
+
+#five li{
+	color: red !important;
+}
