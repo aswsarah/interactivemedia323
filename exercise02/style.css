@@ -7,7 +7,8 @@ h1 {
 	font-family: "Helvetica";
 	text-align: center;
 	font-size: 60px;
-	color: tomato;
+	color: mediumaquamarine;
+	background-color: gold;
 }
 
 h2 {
@@ -18,7 +19,6 @@ h2 {
 
 p {
 	font-family: "Helvetica";
-	background-color: yellowgreen;
 	letter-spacing: .50px; 
 }
 
@@ -35,12 +35,12 @@ li{
 
 #table-of-contents {
 	font-family: "Helvetica";
-	color: yellowgreen;
+	color: tomato;
 }
 
 #back-to-top {
 	font-family: "Helvetica";
-	color: yellowgreen;
+	color: tomato;
 }
 
 img {
@@ -67,4 +67,12 @@ a {
 
 #five li{
 	color: red !important;
+}
+
+#five h2 {
+	color: red !important;
+}
+
+#four h2 {
+	color: blue !important;
 }
