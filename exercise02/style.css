@@ -17,13 +17,13 @@ h2 {
 	font-style: italic;
 } 
 
-p {
+#summary {
 	font-family: Arial Narrow, sans-serif;
 	letter-spacing: .50px; 
 	color: slateblue;
 	text-align: center;
 	line-height: 1.5;
-
+	border: 1px dashed currentColor;
 }
 
 ol {
@@ -40,13 +40,12 @@ li{
 
 #table-of-contents {
 	font-family: Arial Narrow, sans-serif;
-	color: tomato;
-	text-transform: uppercase;
+	color: slateblue;
 }
 
 #back-to-top {
 	font-family: Arial Narrow, sans-serif;
-	color: tomato;
+	color: slateblue;
 	text-transform: uppercase;
 }
 
@@ -64,7 +63,7 @@ img {
 a li {
 	font-family: Arial Narrow, sans-serif;
 	font-weight: bold !important;
-	text-transform: lowercase !important;
+	
 
 }
 
