@@ -1,4 +1,4 @@
-body {
+    body {
 	background: black;
 }
 
@@ -26,7 +26,8 @@ body {
     background: blue;
     position: relative;
     top: 150px;
-    left: 80px;
+    right: 50px;
+    
 }
 
  #two {
@@ -34,7 +35,9 @@ body {
     height: 100px;
     background: green;
     position: relative;
-    right: 150px;
+    bottom: 30px;
+    left: 100px;
+    
 }
 
  #three {
@@ -42,7 +45,10 @@ body {
     height: 100px;
     background: orange;
     position: relative;
-    right: 150px;
+    bottom: 210px;
+    right: 200px;
+   
+ 
    
 }
 
@@ -51,7 +57,9 @@ body {
     height: 100px;
     background: purple;
     position: relative;
-    left: 450px;
+    bottom: 390px;
+    left: 250px;
+   
     
 } 
 
@@ -60,8 +68,8 @@ body {
     height: 100px;
     background: yellow;
     position: relative;
-    left: 150px;
-    
+    bottom: 570px;
+    left: 400px;
 }
 
 #manage {
@@ -72,3 +80,39 @@ body {
     top: 550px;
     left: 575px;
 }
+
+h1 { 
+text-align: center;
+color: white; }
+
+#user1 {
+    position: relative;
+    top: 125px;
+    right: 300px;
+}
+
+#user2 {
+    position: relative;
+    bottom: 55px;
+    right: 150px;
+
+}
+
+#user3 {
+      position: relative;
+      bottom: 235px;      
+}
+
+#user4 {
+      position: relative;
+      bottom: 415px;
+      left: 300px;
+}
+
+#user5 {
+      position: relative;
+      bottom: 595px;
+      left: 150px;
+}
+
+
