@@ -1,0 +1,174 @@
+    body {
+    background: black;
+    padding: 1.5%;
+    margin: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#netflix-logo {
+      width: 10vw;
+      height: 5vw;
+      background: red;
+      position: relative;
+    }
+
+#whos-watching {
+    width: 20vw;
+    height: 5vw;
+    background: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%%;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    transform: translate(-50%, -50%);
+
+}
+
+
+#one {
+  width: 9vw;
+  height: 9vw;
+  background: blue;
+  position: absolute;
+  top: 55%;
+  left: 15%;
+ 
+  
+ 
+    
+}
+
+ #two {
+  width: 9vw;
+  height: 9vw;
+  background: green;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  
+    
+}
+
+ #three {
+  width: 9vw;
+  height: 9vw;
+  background: yellow;
+  position: absolute;
+  top: 55%;
+  left: 45.5%;
+  
+   
+ 
+   
+}
+
+ #four {
+  width: 9vw;
+  height: 9vw;
+  background: purple;
+  position: absolute;
+  top: 55%;
+  right: 30%;
+  
+   
+   
+    
+} 
+
+#five {
+   width: 9vw;
+  height: 9vw;
+  background: orange;
+  position: absolute;
+  top: 55%;
+  right: 15%;
+  
+    
+}
+
+#manage {
+    width: 10vw;
+    height: 3vw;
+    background: grey;
+    opacity: 50%;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%%;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+
+h1 { 
+text-align: center;
+align-items: center;
+color: white;
+display: inline-block;
+font-weight: bold;
+font-size: 5vw; }
+
+
+#user1 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+
+   
+
+   
+   
+}
+
+#user2 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+
+    
+
+    
+    
+
+}
+
+#user3 {
+     position: absolute;
+     top: 55%;
+    left: 25%;
+
+  
+     
+           
+}
+
+#user4 {
+   position: absolute;
+  top: 55%;
+    left: 25%;
+
+    
+ 
+      
+}
+
+#user5 {
+     position: absolute;
+    top: 55%;
+    left: 25%;
+
+     
+   
+     
+}
+
+
+

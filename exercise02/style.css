@@ -16,9 +16,9 @@ body {
     -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
     -moz-column-gap: 50px; /* Firefox */
     column-gap: 50px;
-    -webkit-column-rule: 4px dotted slateblue; /* Chrome, Safari, Opera */
-    -moz-column-rule: 4px dotted slateblue; /* Firefox */
-    column-rule: 4px dotted slateblue;
+    -webkit-column-rule: 2px solid slateblue; /* Chrome, Safari, Opera */
+    -moz-column-rule: 2px solid slateblue; /* Firefox */
+    column-rule: 2px solid slateblue;
 }
 
 .section2 {
@@ -34,9 +34,9 @@ body {
     -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
     -moz-column-gap: 50px; /* Firefox */
     column-gap: 50px;
-    -webkit-column-rule: 4px dotted slateblue; /* Chrome, Safari, Opera */
-    -moz-column-rule: 4px dotted slateblue; /* Firefox */
-    column-rule: 4px dotted slateblue;
+    -webkit-column-rule: 2px solid slateblue; /* Chrome, Safari, Opera */
+    -moz-column-rule: 2px solid slateblue; /* Firefox */
+    column-rule: 2px solid slateblue;
 }
 
 .section3{
@@ -52,9 +52,9 @@ body {
     -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
     -moz-column-gap: 50px; /* Firefox */
     column-gap: 50px;
-    -webkit-column-rule: 4px dotted slateblue; /* Chrome, Safari, Opera */
-    -moz-column-rule: 4px dotted slateblue; /* Firefox */
-    column-rule: 4px dotted slateblue;
+    -webkit-column-rule: 2px solid slateblue; /* Chrome, Safari, Opera */
+    -moz-column-rule: 2px solid slateblue; /* Firefox */
+    column-rule: 2px solid slateblue;
 }
 
 h1 {
