@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas1 {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: cadetblue;
+	position: relative;
+}
+
+.canvas2 {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: palevioletred;
+	position: relative;
+}
+
+.shaddow {
+	 width: 400px;
+     height: 150px;
+     background: black;
+     border-radius: 460px / 180px;
+     position: relative;
+     top: 375px;
+     left: 400px;
+    }
+
+.cup {
+	 width: 400px;
+     height: 300px;
+     background: rgb(255,255,255);
+	 background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(194,185,187,1) 100%);
+     border-radius: 0 0 400px 400px ;
+     position: relative;
+     top: 20px;
+     left: 200px;
+     z-index: +1;
+
+
+}
+
+.top-cup {
+	 width: 400px;
+     height: 150px;
+     background: black;
+     border-radius: 460px / 180px;
+     position: relative;
+     bottom: 610px;
+	 left: 200px; 
+	 z-index: +1;    
+
+}
+
+
+.handle01{
+	width: 150px;
+	height: 160px;
+	  background: rgb(255,255,255);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(194,185,187,1) 100%);
+	border-radius: 0 200px 200px 0; 
+	position: relative;
+	bottom: 260px;
+	left: 530px;
+
+}
+
+.handle02{
+	width: 65px;
+	height: 100px;
+	background: cadetblue;
+	border-radius: 0 200px 200px 0;
+	position: relative;
+	left: 590px;
+	bottom: 391px;
+	
+}
+
+
+

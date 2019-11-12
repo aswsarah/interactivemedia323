@@ -1,6 +1,27 @@
 body {
-	background-color: rosybrown;
-	font-family: 'Oswald', sans-serif;
+	
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+padding-left: 2%;
+padding-right: 2%;
+padding-top:2%;
+padding-bottom: 2%;
 }
 
-h1 { font-weight: bold; }
+#title {
+	border: 2px dotted;
+}
+
+#upper-sky {
+	border: 5px solid;
+	float: right;
+}
+
+#truth {
+	position: relative;
+	left: 50%;
+	border:  5px dotted;
+}
+
