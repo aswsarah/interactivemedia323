@@ -10,22 +10,79 @@ padding-top:2%;
 padding-bottom: 2%;
 }
 
-#earth {
-	border: 1px solid;
-	position: relative;
+p {font-family: 'Luckiest Guy', cursive;
 }
 
-#reality {
-	float: right;
+h2{ font-family: 'Monoton', cursive;
+}
+
+h3 {font-family: 'Bungee Inline', cursive;
+}
+
+h4 {font-family: 'Zilla Slab Highlight', cursive;
+}
+
+h6 {font-family: 'Barriecito', cursive;
+}
+
+#skies {
+	font-size: 200px;
+}
+
+#earth { 
+font-size: 80px;
+text-align: center;
+line-height: 100px;
+ }
+
+ #reality p{
+ 	font-size: 50px;
+ }
+
+ #reality h1{
+ 	text-align: center;
+ }
+
+
+ #reality h6{
+ 	font-size: 300px;
+ 	text-align: right;
+ 	position: relative;
+ 	bottom: 550px;
+ }
+
+
+#bummer { 
+font-size: 30px;
+vertical-align: center; }
+
+#hope{
+ border: 2px dotted;
+ text-align: center;
+ font-size: 50px;
 }
 
 #part {
-
- padding-left: 5%;
- padding-bottom:5%;
- padding-top: 5%;
- padding-right: 5%;
- border: 8px dotted;
- float: right;
-
+	font-size: 25px;
 }
+
+
+#title {
+	text-align: center;
+	border: 2px solid;
+	font-size: 40px;
+	font-family: 'Shrikhand', cursive;
+}
+
+#title p {
+	font-family: 'Shrikhand', cursive;
+}
+
+
+
+
+
+
+
+
+

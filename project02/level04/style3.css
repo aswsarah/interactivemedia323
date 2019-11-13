@@ -10,10 +10,46 @@ padding-top:2%;
 padding-bottom: 2%;
 }
 
+h2{
+	font-family: 'Crushed', cursive;
+	text-align: center;
+}
+
+h5{
+	font-family: 'Fontdiner Swanky', cursive;
+	font-size: 90px;
+}
+
+h1{
+	font-family: 'Rammetto One', cursive;
+	text-align: center;
+}
+
+p{
+	font-family: 'Spirax', cursive;
+	font-size: 50px;
+}
+
+h3{
+	font-family: 'Codystar', cursive;
+	font-size: 200px;
+}
+
+
+h4{
+	font-family: 'Ranchers', cursive;
+	font-size: 150px;
+}
+
+h6{
+	font-family: 'Kranky', cursive;
+	font-size: 25px;
+}
+
+
 #one{
 position:relative;
 left: 20%;
-border: 3px solid;
 width: 15%;
 top:50%;
 }
@@ -32,7 +68,6 @@ top:50%;
 
 #four{
 	position:relative;
-	border: 5px dotted;
 	width: 12%;
 	top:50%;
 }
@@ -62,7 +97,6 @@ top:50%;
 
 #nine{
 	position:relative;
-	border: 3px double;
 	top:50%;
 }
 
@@ -86,7 +120,6 @@ top:50%;
 
 #thirteen{
 	position:relative;
-	border:  10px solid;
 	top:50%;
 }
 
@@ -128,7 +161,6 @@ top:50%;
 #twenty{
 	position:relative;
 	left: 50%;
-	border: .5px dashed;
 	width: 12%;
 	top:50%;
 }
@@ -176,7 +208,6 @@ top:50%;
 #twenty-eight{
 	position:relative;
 	left: 89%;
-	border: 4px solid;
 	top:50%;
 }
 
@@ -235,8 +266,6 @@ top:50%;
 #thirty-eight{
 	position:relative;
 	left: 50%;
-	border: 5px dotted;
-	width: 20%;
 	top:50%;
 }
 
@@ -277,7 +306,6 @@ top:50%;
 
 #forty-five{
 	position:relative;
-	border: 2px solid;
 	top:50%;
 }
 
