@@ -10,7 +10,7 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: cadetblue;
+	background: goldenrod;
 	position: relative;
 }
 
@@ -18,7 +18,7 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: palevioletred;
+	background: midnightblue;
 	position: relative;
 }
 
@@ -62,7 +62,7 @@ body {
 .handle01{
 	width: 150px;
 	height: 160px;
-	  background: rgb(255,255,255);
+	background: rgb(255,255,255);
 	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(194,185,187,1) 100%);
 	border-radius: 0 200px 200px 0; 
 	position: relative;
@@ -74,13 +74,100 @@ body {
 .handle02{
 	width: 65px;
 	height: 100px;
-	background: cadetblue;
+	background: goldenrod;
 	border-radius: 0 200px 200px 0;
 	position: relative;
 	left: 590px;
 	bottom: 391px;
 	
 }
+
+.bottom {
+	width: 200px;
+     height: 70px;
+     background: gainsboro;
+     border-radius: 50% / 50%;
+     position: relative;
+     left: 299px;
+     top: 320px;
+}
+
+.shaddow2 {
+	 width: 350px;
+     height: 100px;
+     background: black;
+     border-radius: 50% / 50%;
+     position: relative;
+     top: 430px;
+     left: 400px;
+    }
+
+ .middle {
+ 	width: 25px;
+    height: 205px;
+    background: gainsboro;
+    position: relative;
+    top: 55px;
+    left: 385px;
+ }
+
+.top {
+	  width: 0;
+      height: 0;
+      border-left: 155px solid transparent;
+      border-right: 155px solid transparent;
+      border-top: 150px solid gainsboro;
+      position: relative;
+      bottom: 260px;
+      left: 243px;
+}
+
+.liquid {
+	  width: 0;
+      height: 0;
+      border-left: 110px solid transparent;
+      border-right: 110px solid transparent;
+      border-top: 100px solid lightcyan;
+      position: relative;
+      bottom: 380px;
+      left: 288px;
+      z-index: +1;
+
+}
+
+.stick {
+	width: 10px;
+    height: 150px;
+    background: tan;
+    position: relative;
+  	bottom: 570px;
+  	left: 450px;
+  	transform: rotate(30deg);
+
+}
+
+.olive1 {
+	width: 55px;
+    height: 65px;
+    background: olivedrab;
+    border-radius: 50% / 50%;
+    position: relative;
+    transform: rotate(75deg);
+    bottom: 700px;
+  	left: 440px;
+
+}
+.olive2 {
+	width: 25px;
+    height: 10px;
+    background: red;
+    border-radius: 50% / 50%;
+    position: relative;
+    bottom: 730px;
+  	left: 435px;
+  	transform: rotate(45deg);
+}
+
 
 
 

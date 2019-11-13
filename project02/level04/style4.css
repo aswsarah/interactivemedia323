@@ -1,0 +1,42 @@
+body {
+
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;
+padding-left: 2%;
+padding-right: 2%;
+padding-top:2%;
+padding-bottom: 2%;
+}
+
+#title {
+	border: 2px solid;
+	position: fixed;
+	display: block;
+}
+
+#sky {
+	position: relative;
+	left: 50%;
+	right: 50%;
+	border: 1px dotted;
+}
+
+#earth {
+	position: relative;
+	border: 1px solid;
+}
+
+#hope {
+	position: relative;
+	left: 50%;
+	right: 50%;
+
+}
+
+#author {
+	position: relative;
+	float:right;
+	border: .5px solid;
+}
