@@ -72,7 +72,7 @@ color:white;
   animation-timing-function: linear;
   position: absolute;
   bottom: 15%;
-  left: 12%;
+  left: 1%;
 }
 
 
@@ -428,3 +428,121 @@ color:white;
 }
 
 
+#stage06{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7%;
+  left: 90%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move6;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+#stage07{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7%;
+  left: 90%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move7;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+#stage08{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7%;
+  left: 90%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move8;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+#stage09{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7%;
+  left: 90%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move9;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+
+#stage10{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7%;
+  left: 90%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move10;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+
+@keyframes move6 {
+  from { left: 90%
+         bottom:7%;
+}
+  to { bottom: 20%; }
+
+}
+
+
+@keyframes move7 {
+  from { left: 90%
+         bottom:7%;
+}
+  to { bottom: 30%; }
+
+}
+
+
+@keyframes move8 {
+  from { left: 90%
+         bottom:7%;
+}
+  to { bottom: 40%; }
+
+}
+
+
+@keyframes move9 {
+  from { left: 90%
+         bottom:7%;
+}
+  to { bottom: 50%; }
+
+
+}
+@keyframes move10 {
+  from { left: 90%
+         bottom:7%;
+}
+  to { bottom: 60%; }
+
+}
