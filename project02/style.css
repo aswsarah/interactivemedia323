@@ -1,6 +1,5 @@
 body {
   margin: auto;
-  min-width: 100px;
   background: rgb(36,92,24);
   background: linear-gradient(0deg, rgba(36,92,24,1) 52%, rgba(4,23,55,1) 64%);
   padding: 100%;
@@ -306,3 +305,59 @@ right:50%;
 
 }
 
+
+#stage01{
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7%;
+  left: 85%;
+  background: gold;
+
+}
+
+#stage02 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7%;
+  left: 85%;
+  background: gold;
+}
+
+#stage03 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7%;
+  left: 85%;
+  background: gold;
+}
+
+#stage04 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7%;
+  left: 85%;
+  background: gold;
+}
+
+#stage05 {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 7%;
+  left: 85%;
+  background: gold;
+}
+
+
+@keyframes move {
+  
+}
