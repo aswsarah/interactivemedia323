@@ -18,6 +18,8 @@ font-size: 50px;
 text-align: center;
 position: absolute;
 right:50%;
+bottom: 50%;
+color:white;
 }
 
 #one {
@@ -424,6 +426,5 @@ right:50%;
   to { bottom: 60%; }
 
 }
-
 
 
