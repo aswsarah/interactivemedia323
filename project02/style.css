@@ -1,25 +1,20 @@
 body {
-  margin: auto;
-  background: rgb(36,92,24);
-  background: linear-gradient(0deg, rgba(36,92,24,1) 52%, rgba(4,23,55,1) 64%);
-  padding: 100%;
+ margin:auto;
+ background: rgb(15, 6, 46);
 }
 
 h1{font-family: 'Fjalla One', sans-serif;
-font-size: 100px;
-}
-
-h2{font-family: 'Fjalla One', sans-serif;
-line-height: 2px;
 font-size: 50px;
 }
 
+h2{font-family: 'Fjalla One', sans-serif;
+font-size: 25px;
+}
+
 .title {
-text-align: center;
-position: absolute;
-right:50%;
-bottom: 50%;
+position:relative;
 color:white;
+
 }
 
 #one {
@@ -51,7 +46,7 @@ color:white;
   animation: pulse .5s infinite;
   animation-timing-function: linear;
   position: absolute;
-  bottom: 25%;
+  bottom: 35%;
   left: 38%;
 }
 #four {
@@ -62,7 +57,7 @@ color:white;
   animation-timing-function: linear;
   position: absolute;
   left: 45%;
-  bottom: 1%;
+  bottom: 90%;
 }
 #five {
   height: 20px;
@@ -159,7 +154,7 @@ color:white;
   border-radius: 50%;
   background: yellow;
   position: absolute;
-  bottom:5%;
+  bottom:50%;
   right: 75%;
 
 }
@@ -258,7 +253,7 @@ color:white;
   border-radius: 50%;
   background: yellow;
   position: absolute;
-  bottom:90%;
+  bottom:65%;
   right: 55%;
 
 }
@@ -269,7 +264,7 @@ color:white;
   border-radius: 50%;
   background: yellow;
   position: absolute;
-  bottom:90%;
+  bottom:50%;
   right: 95%;
 
 }
@@ -280,8 +275,8 @@ color:white;
   border-radius: 50%;
   background: yellow;
   position: absolute;
-  bottom:20%;
-  right: 55%;
+  bottom:60%;
+  right: 40%;
 
 }
 
@@ -291,8 +286,8 @@ color:white;
   border-radius: 50%;
   background: yellow;
   position: absolute;
-  bottom:20%;
-  right: 95%;
+  bottom:60%;
+  right: 20%;
 
 }
 
@@ -388,7 +383,7 @@ color:white;
   from { left: 90%
          bottom:7%;
 }
-  to { bottom: 20%; }
+  to { bottom: 12%; }
 
 }
 
@@ -397,7 +392,7 @@ color:white;
   from { left: 90%
          bottom:7%;
 }
-  to { bottom: 30%; }
+  to { bottom: 17%; }
 
 }
 
@@ -406,7 +401,7 @@ color:white;
   from { left: 90%
          bottom:7%;
 }
-  to { bottom: 40%; }
+  to { bottom: 22%; }
 
 }
 
@@ -415,7 +410,7 @@ color:white;
   from { left: 90%
          bottom:7%;
 }
-  to { bottom: 50%; }
+  to { bottom: 27%; }
 
 
 }
@@ -423,7 +418,7 @@ color:white;
   from { left: 90%
          bottom:7%;
 }
-  to { bottom: 60%; }
+  to { bottom: 32%; }
 
 }
 
@@ -433,8 +428,8 @@ color:white;
   width: 20px;
   border-radius: 50%;
   position: absolute;
-  bottom: 7%;
-  left: 90%;
+  bottom: 5%;
+  left: 69%;
   background: gold;
   cursor: pointer;
   animation-name: move6;
@@ -448,8 +443,8 @@ color:white;
   width: 20px;
   border-radius: 50%;
   position: absolute;
-  bottom: 7%;
-  left: 90%;
+  bottom: 5%;
+  left: 69%;
   background: gold;
   cursor: pointer;
   animation-name: move7;
@@ -463,8 +458,8 @@ color:white;
   width: 20px;
   border-radius: 50%;
   position: absolute;
-  bottom: 7%;
-  left: 90%;
+  bottom: 5%;
+  left: 69%;
   background: gold;
   cursor: pointer;
   animation-name: move8;
@@ -478,8 +473,8 @@ color:white;
   width: 20px;
   border-radius: 50%;
   position: absolute;
-  bottom: 7%;
-  left: 90%;
+  bottom: 5%;
+  left: 69%;
   background: gold;
   cursor: pointer;
   animation-name: move9;
@@ -493,8 +488,8 @@ color:white;
   width: 20px;
   border-radius: 50%;
   position: absolute;
-  bottom: 7%;
-  left: 90%;
+  bottom: 5%;
+  left: 69%;
   background: gold;
   cursor: pointer;
   animation-name: move10;
@@ -503,4 +498,386 @@ color:white;
   animation-delay: 5s;
 }
 
+@keyframes move6 {
+  from { bottom: 5%;
+         left: 69%;
+}
+  to { left: 65%; }
 
+}
+
+
+@keyframes move7 {
+  from { bottom: 5%;
+         left: 69%;
+}
+  to { left: 59%; }
+
+}
+
+
+@keyframes move8 {
+  from { bottom: 5%;
+  left: 69%;
+}
+  to { left:54%; }
+
+}
+
+
+@keyframes move9 {
+  from { bottom: 5%;
+  left: 69%;
+}
+  to { left:49%; }
+
+
+}
+@keyframes move10 {
+  from { bottom: 5%;
+  left: 69%;
+}
+  to { left:44%; }
+
+}
+
+#stage11{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+   bottom: 35%;
+  left: 38%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move11;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+#stage12{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+   bottom: 35%;
+  left: 38%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move12;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+#stage13{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 35%;
+  left: 38%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move13;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+#stage14{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+   bottom: 35%;
+  left: 38%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move14;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+
+#stage15{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+   bottom: 35%;
+  left: 38%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move15;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+@keyframes move11 {
+  from {  bottom: 35%;
+  left: 38%
+}
+  to { left: 43%; }
+
+}
+
+@keyframes move12 {
+  from {  bottom: 35%;
+  left: 38%
+}
+  to { left:48%; }
+
+}
+
+@keyframes move13 {
+  from {  bottom: 35%;
+  left: 38% }
+  to { left: 53%; }
+
+}
+@keyframes move14 {
+  from {  bottom: 35%;
+  left: 38%
+}
+  to { left:58%; }
+
+}
+@keyframes move15 {
+  from {  bottom: 35%;
+          left: 38%
+}
+  to { left:63%; }
+
+}
+
+
+#stage16{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+   left: 45%;
+  bottom: 90%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move16;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+#stage17{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+    left: 45%;
+  bottom: 90%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move17;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+#stage18{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+   left: 45%;
+  bottom: 90%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move18;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+#stage19{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+    left: 45%;
+  bottom: 90%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move19;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+
+#stage20{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+    left: 45%;
+  bottom: 90%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move20;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+
+
+@keyframes move16 {
+  from {    left: 45%;
+  bottom: 90%;
+}
+  to { left: 50%; }
+
+}
+
+@keyframes move17 {
+  from {    left: 45%;
+  bottom: 90%;
+}
+  to { left: 55%; }
+
+}
+
+@keyframes move18 {
+  from {    left: 45%;
+  bottom: 90%; }
+  to { left: 60%; }
+
+}
+@keyframes move19 {
+  from {    left: 45%;
+  bottom: 90%;
+}
+  to { left:65%; }
+
+}
+@keyframes move20 {
+  from {    left: 45%;
+  bottom: 90%;
+}
+  to { left:70%; }
+
+}
+
+
+
+#stage21{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+   bottom: 15%;
+  left: 1%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move21;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+#stage22{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+   bottom: 15%;
+  left: 1%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move22;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+#stage23{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 15%;
+  left: 1%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move23;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+#stage24{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+    bottom: 15%;
+  left: 1%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move24;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+
+#stage25{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+   bottom: 15%;
+  left: 1%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move25;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+@keyframes move21 {
+  from {     bottom: 15%;
+  left: 1%;
+}
+  to { left: 5%; }
+
+}
+
+@keyframes move22 {
+  from {     bottom: 15%;
+  left: 1%;
+}
+  to { left: 10%; }
+
+}
+
+@keyframes move23 {
+  from {    bottom: 15%;
+  left: 1%; }
+  to { left: 15%; }
+
+}
+@keyframes move24 {
+  from {    bottom: 15%;
+  left: 1%;
+}
+  to { left:20%; }
+
+}
+@keyframes move25 {
+  from {    bottom: 15%;
+  left: 1%;
+}
+  to { left:25%; }
+
+}
