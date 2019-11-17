@@ -1,0 +1,308 @@
+body {
+  margin: auto;
+  min-width: 100px;
+  background: rgb(36,92,24);
+  background: linear-gradient(0deg, rgba(36,92,24,1) 52%, rgba(4,23,55,1) 64%);
+  padding: 100%;
+}
+
+h1{font-family: 'Fjalla One', sans-serif;
+font-size: 100px;
+}
+
+h2{font-family: 'Fjalla One', sans-serif;
+line-height: 2px;
+font-size: 50px;
+}
+
+.title {
+text-align: center;
+position: absolute;
+right:50%;
+}
+
+#one {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  animation: pulse .5s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  bottom: 7%;
+  left: 85%;
+}
+
+#two {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  animation: pulse .5s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  bottom: 5%;
+  left: 69%;
+}
+
+#three {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  animation: pulse .5s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  bottom: 25%;
+  left: 38%;
+}
+#four {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  animation: pulse .5s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  left: 45%;
+  bottom: 1%;
+}
+#five {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  animation: pulse .5s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  bottom: 15%;
+  left: 12%;
+}
+
+
+@keyframes pulse {
+  0% {
+    background-color: ghostwhite;
+  }
+  100% {
+    background-color: gold;
+  }
+}
+
+
+#star00 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:20%;
+
+
+}
+
+#star02 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:20%;
+  right: 55%;
+
+}
+
+#star03 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:30%;
+  right: 15%;
+
+}
+
+#star04 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:20%;
+  right: 21%;
+
+}
+
+#star05 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:50%;
+  right: 55%;
+
+
+}
+
+#star06 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:68%;
+  right: 90%;
+
+}
+
+#star07 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:5%;
+  right: 75%;
+
+}
+
+#star08 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:77%;
+  right: 30%;
+
+}
+
+#star09 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:92%;
+  right: 0%;
+
+}
+
+#star10 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:77%;
+  right: 65%;
+
+}
+
+#star11 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:40%;
+  right: 75%;
+
+}
+
+#star12 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:45%;
+  right: 32%;
+
+}
+
+#star13 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:50%;
+  right: 0%;
+
+}
+
+#star14 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:20%;
+  right: 55%;
+
+}
+
+#star15 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:75%;
+  right: 10%;
+
+}
+
+#star16 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:90%;
+  right: 55%;
+
+}
+
+#star17 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:90%;
+  right: 95%;
+
+}
+
+#star18 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:20%;
+  right: 55%;
+
+}
+
+#star19 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:20%;
+  right: 95%;
+
+}
+
+#star20 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:30%;
+  right: 85%;
+
+}
+

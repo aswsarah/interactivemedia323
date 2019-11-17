@@ -8,42 +8,47 @@ padding-left: 2%;
 padding-right: 2%;
 padding-top:2%;
 padding-bottom: 2%;
+background: black;
 }
 
-h1 {font-family: 'Anton', sans-serif;}
-h2 {font-family: 'Anton', sans-serif;}
-h3 {font-family: 'Anton', sans-serif;}
-h4 {font-family: 'Anton', sans-serif;}
-h5 {font-family: 'Anton', sans-serif;}
-h6 {font-family: 'Anton', sans-serif;}
-p {font-family: 'Poppins', sans-serif;}
+#first {
+	background: white;
+	height: 50%;
+}
+
 
 #title {
+	
+	text-align: center;
 }
 
 #author {
 	line-height: 1px;
+	
+	text-align: center;
 }
 
 #upper-sky {
-	border: 5px dotted;
 	text-align: center;
+	color: white;
 	
 }
 
 
 #earth{
-	border: 5px solid;
 	text-align: center;
+	color: white;
 }
 
 #truth {
-	text-align: right;
-	left: 50%;
+	color: white;
+	text-align: center;
 
 }
 
 #hope {
+	color: white;
+	text-align: center;
  }
 
 
