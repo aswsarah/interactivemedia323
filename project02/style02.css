@@ -303,6 +303,17 @@ color:white;
 
 }
 
+#star21{
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:5%;
+  right: 85%;
+
+}
+
 
 #stage06{
   height: 20px;
