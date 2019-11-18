@@ -1,0 +1,424 @@
+body {
+ margin:auto;
+ background: rgb(15, 6, 46);
+}
+
+h1{font-family: 'Fjalla One', sans-serif;
+font-size: 50px;
+}
+
+h2{font-family: 'Fjalla One', sans-serif;
+font-size: 25px;
+}
+
+.title {
+position:relative;
+color:white;
+
+}
+
+#one {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  animation: pulse .5s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  bottom: 7%;
+  left: 90%;
+}
+
+#two {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  animation: pulse .5s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  bottom: 5%;
+  left: 69%;
+}
+
+#three {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  animation: pulse .5s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  bottom: 35%;
+  left: 38%;
+}
+#four {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  animation: pulse .5s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  left: 45%;
+  bottom: 90%;
+}
+#five {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  animation: pulse .5s infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  bottom: 15%;
+  left: 1%;
+}
+
+
+@keyframes pulse {
+  0% {
+    background-color: ghostwhite;
+  }
+  100% {
+    background-color: gold;
+  }
+}
+
+
+#star00 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:20%;
+
+
+
+}
+
+#star02 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:20%;
+  right: 55%;
+
+}
+
+#star03 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:30%;
+  right: 15%;
+
+}
+
+#star04 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:20%;
+  right: 21%;
+
+}
+
+#star05 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:50%;
+  right: 55%;
+
+
+}
+
+#star06 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:68%;
+  right: 90%;
+
+}
+
+#star07 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:50%;
+  right: 75%;
+
+}
+
+#star08 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:77%;
+  right: 30%;
+
+}
+
+#star09 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:92%;
+  right: 0%;
+
+}
+
+#star10 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:77%;
+  right: 65%;
+
+}
+
+#star11 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:40%;
+  right: 75%;
+
+}
+
+#star12 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:45%;
+  right: 32%;
+
+}
+
+#star13 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:50%;
+  right: 0%;
+
+}
+
+#star14 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:20%;
+  right: 55%;
+
+}
+
+#star15 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:75%;
+  right: 10%;
+
+}
+
+#star16 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:65%;
+  right: 55%;
+
+}
+
+#star17 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:50%;
+  right: 95%;
+
+}
+
+#star18 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:60%;
+  right: 40%;
+
+}
+
+#star19 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:60%;
+  right: 20%;
+
+}
+
+#star20 {
+  height:15px;
+  width: 15px;
+  border-radius: 50%;
+  background: yellow;
+  position: absolute;
+  bottom:30%;
+  right: 85%;
+
+}
+
+
+#stage06{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 69%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move6;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+}
+
+#stage07{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 69%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move7;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s;
+}
+
+#stage08{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 69%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move8;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+}
+
+#stage09{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 69%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move9;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s;
+}
+
+#stage10{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5%;
+  left: 69%;
+  background: gold;
+  cursor: pointer;
+  animation-name: move10;
+  animation-duration: 1.5s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+}
+
+@keyframes move6 {
+  from { bottom: 5%;
+         left: 69%;
+}
+  to { left: 65%; }
+
+}
+
+
+@keyframes move7 {
+  from { bottom: 5%;
+         left: 69%;
+}
+  to { left: 59%; }
+
+}
+
+
+@keyframes move8 {
+  from { bottom: 5%;
+  left: 69%;
+}
+  to { left:54%; }
+
+}
+
+
+@keyframes move9 {
+  from { bottom: 5%;
+  left: 69%;
+}
+  to { left:49%; }
+
+
+}
+@keyframes move10 {
+  from { bottom: 5%;
+  left: 69%;
+}
+  to { left:44%; }
+
+}
+
