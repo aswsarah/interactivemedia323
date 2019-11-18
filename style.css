@@ -13,10 +13,3 @@ body {
 
 h1 { font-weight: bold; 
 }
-
-embed {
-	position: absolute;
-	padding-left: 30%;
-	display: inline;
-	top:30%;
-}
