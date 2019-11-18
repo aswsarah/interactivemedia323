@@ -6,13 +6,17 @@ background: radial-gradient(circle, rgba(180,177,58,1) 0%, rgba(252,176,69,1) 58
 
 body {
 	margin: auto;
+	position: relative;
 	font-family: 'Oswald', sans-serif;
+	padding-left: 5%;
 }
 
-h1 { font-weight: bold; }
+h1 { font-weight: bold; 
+}
 
 embed {
 	position: absolute;
 	padding-left: 30%;
-	
+	display: inline;
+	top:30%;
 }

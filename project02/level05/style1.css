@@ -1,49 +1,247 @@
 body {
 	
-margin-left: auto;
-margin-right: auto;
-margin-top: auto;
-margin-bottom: auto;
-padding-left: 2%;
-padding-right: 2%;
-padding-top:2%;
-padding-bottom: 2%;
+margin: auto;
+padding: 2%;
+background: black;
+
 }
 
-h1 {font-family: 'Anton', sans-serif;}
-h2 {font-family: 'Anton', sans-serif;}
-h3 {font-family: 'Anton', sans-serif;}
-h4 {font-family: 'Anton', sans-serif;}
-h5 {font-family: 'Anton', sans-serif;}
-h6 {font-family: 'Anton', sans-serif;}
-p {font-family: 'Poppins', sans-serif;}
+@keyframes appear {
+    0%   { opacity: 0; }
+  	100% { opacity: 1; }
+}
 
 #title {
+	color:darksalmon;
+	font-family: 'Calistoga', cursive;
+	line-height: 3px;
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
 }
 
 #author {
-	line-height: 1px;
+	color:darksalmon;
+	font-family: 'Calistoga', cursive;
+	line-height: 3px;
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
 }
 
-#upper-sky {
-	border: 5px dotted;
+h1{
+	font-size: 100px;
 	text-align: center;
-	
+}
+h3{ font-size: 50px;
+text-align: center; 
 }
 
-
-#earth{
-	border: 5px solid;
-	text-align: center;
+#upper-sky{ 
+ color: goldenrod; 
+font-size: 30px;
+text-align: center;
 }
 
-#truth {
-	text-align: right;
-	left: 50%;
-
+ #earth { 
+ color: yellowgreen;
+ font-size: 30px; 
+text-align: center;
 }
 
-#hope {
+ #bummer{
+ 	color:palevioletred;
+ 	font-size: 30px;
+ 	text-align: center;
  }
+
+ #truth{
+ 	color:lightblue;
+ 	font-size: 30px;
+ 	text-align: center;
+ }
+
+ #hope{
+ 	color: darkred;
+ 	font-size: 30px;
+ 	text-align: center;
+ }
+
+ #sky01{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+	}
+ #sky02 {
+ 	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 4s;
+ }
+ #sky03 {
+ 	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 5s;
+ }
+ #sky04 {
+ 	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 6s;
+ }
+ #sky05 {
+ 	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 7s;
+ }
+ #sky06 {
+ 	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 8s;
+ }
+ #sky07 {
+ 	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 9s;
+ }
+ #sky08 {
+ 	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 10s;
+ }
+
+ #earth {
+ 	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 11s;
+
+ }
+
+#bummer01{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 12s;
+}
+#bummer02{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 13s;
+}
+#bummer03{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 14s;
+}
+#bummer04{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 15s;
+}
+#bummer05{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 16s;
+}
+#bummer06{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 17s;
+}
+#bummer07{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 18s;
+}
+#bummer08{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 19s;
+}
+#bummer09{opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 20s;}
+
+#truth{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 21s;
+}
+
+#hope01{opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 22s;}
+
+#hope02{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	animation-delay: 23s;
+}
 
 
