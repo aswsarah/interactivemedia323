@@ -1,6 +1,18 @@
+html{
+background: rgb(180,177,58);
+background: radial-gradient(circle, rgba(180,177,58,1) 0%, rgba(252,176,69,1) 58%, rgba(253,29,29,1) 100%);
+}
+
+
 body {
-	background-color: rosybrown;
+	margin: auto;
 	font-family: 'Oswald', sans-serif;
 }
 
 h1 { font-weight: bold; }
+
+embed {
+	position: absolute;
+	padding-left: 30%;
+	
+}
