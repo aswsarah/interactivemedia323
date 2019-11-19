@@ -11,37 +11,6 @@ background: black;
   	100% { opacity: 1; }
 }
 
-#title {
-	color:darksalmon;
-	font-family: 'Calistoga', cursive;
-	line-height: 3px;
-	opacity: 0;
-	animation-name: appear;
-	animation-duration: .5s;
-	animation-timing-function: ease-in;
-	animation-fill-mode: forwards;
-	animation-delay: 1s;
-}
-
-#author {
-	color:darksalmon;
-	font-family: 'Calistoga', cursive;
-	line-height: 3px;
-	opacity: 0;
-	animation-name: appear;
-	animation-duration: .5s;
-	animation-timing-function: ease-in;
-	animation-fill-mode: forwards;
-	animation-delay: 2s;
-}
-
-h1{
-	font-size: 100px;
-	text-align: center;
-}
-h3{ font-size: 50px;
-text-align: center; 
-}
 
 #upper-sky{ 
  color: goldenrod; 
@@ -67,8 +36,14 @@ text-align: center;
  	text-align: center;
  }
 
- #hope{
- 	color: darkred;
+ #hope01{
+ 	color: darksalmon;
+ 	font-size: 30px;
+ 	text-align: center;
+ }
+
+#hope02{
+ 	color: white;
  	font-size: 30px;
  	text-align: center;
  }
@@ -79,7 +54,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 3s;
+	animation-delay: 1s;
 	}
  #sky02 {
  	opacity: 0;
@@ -87,7 +62,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 4s;
+	animation-delay: 2s;
  }
  #sky03 {
  	opacity: 0;
@@ -95,7 +70,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 5s;
+	animation-delay: 3s;
  }
  #sky04 {
  	opacity: 0;
@@ -103,7 +78,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 6s;
+	animation-delay: 4s;
  }
  #sky05 {
  	opacity: 0;
@@ -111,7 +86,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 7s;
+	animation-delay: 5s;
  }
  #sky06 {
  	opacity: 0;
@@ -119,7 +94,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 8s;
+	animation-delay: 6s;
  }
  #sky07 {
  	opacity: 0;
@@ -127,7 +102,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 9s;
+	animation-delay: 7s;
  }
  #sky08 {
  	opacity: 0;
@@ -135,7 +110,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 10s;
+	animation-delay: 8s;
  }
 
  #earth {
@@ -144,7 +119,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 11s;
+	animation-delay: 9s;
 
  }
 
@@ -154,7 +129,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 12s;
+	animation-delay: 10s;
 }
 #bummer02{
 	opacity: 0;
@@ -162,7 +137,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 13s;
+	animation-delay: 11s;
 }
 #bummer03{
 	opacity: 0;
@@ -170,7 +145,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 14s;
+	animation-delay: 12s;
 }
 #bummer04{
 	opacity: 0;
@@ -178,7 +153,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 15s;
+	animation-delay: 13s;
 }
 #bummer05{
 	opacity: 0;
@@ -186,7 +161,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 16s;
+	animation-delay: 14s;
 }
 #bummer06{
 	opacity: 0;
@@ -194,7 +169,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 17s;
+	animation-delay: 15s;
 }
 #bummer07{
 	opacity: 0;
@@ -202,7 +177,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 18s;
+	animation-delay: 16s;
 }
 #bummer08{
 	opacity: 0;
@@ -210,14 +185,14 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 19s;
+	animation-delay: 17s;
 }
 #bummer09{opacity: 0;
 	animation-name: appear;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 20s;}
+	animation-delay: 18s;}
 
 #truth{
 	opacity: 0;
@@ -225,7 +200,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 21s;
+	animation-delay: 19s;
 }
 
 #hope01{opacity: 0;
@@ -233,7 +208,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 22s;}
+	animation-delay: 20s;}
 
 #hope02{
 	opacity: 0;
@@ -241,7 +216,7 @@ text-align: center;
 	animation-duration: .5s;
 	animation-timing-function: ease-in;
 	animation-fill-mode: forwards;
-	animation-delay: 23s;
+	animation-delay: 21s;
 }
 
 

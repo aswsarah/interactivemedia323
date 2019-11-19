@@ -1,0 +1,83 @@
+
+
+#nav-back {
+	position: fixed;
+	left: 89%;
+	bottom: 92%;
+}
+
+#nav-back a {
+	text-decoration: none;
+}
+
+#nav-back a:visited {
+	color: darkgoldenrod;
+
+}
+
+#nav-back a:link {
+	color: goldenrod;
+	
+}
+
+#nav-back a:hover {
+	color: yellow;
+	
+}
+
+
+#nav-next{
+position: fixed;
+left: 94.4%;
+bottom: 92%;
+
+}
+
+#nav-next a {
+	text-decoration: none;
+}
+
+#nav-next a:visited {
+	color: darkgoldenrod;
+
+}
+
+#nav-next a:link {
+	color: goldenrod;
+	
+}
+
+#nav-next a:hover {
+	color: yellow;
+}
+
+#nav-home {
+	position: fixed;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: goldenrod;
+    left: 92%;
+    bottom: 95%;
+}
+
+#nav-home a {
+	text-decoration: none;
+}
+
+#nav-home a:visited {
+	color: darkgoldenrod;
+
+}
+
+#nav-home a:link {
+	color: goldenrod;
+	
+}
+
+#nav-home a:hover {
+	color: yellow;
+	
+
+
+

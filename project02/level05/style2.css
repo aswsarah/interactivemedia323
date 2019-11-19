@@ -1,85 +1,134 @@
 body {
-	
-margin-left: auto;
-margin-right: auto;
-margin-top: auto;
-margin-bottom: auto;
-padding-left: 2%;
-padding-right: 2%;
-padding-top:2%;
-padding-bottom: 2%;
+background-color: black;
+margin: auto;
 }
 
-p {font-family: 'Luckiest Guy', cursive;
+@keyframes pulse01 {
+  0% {
+    color: black;
+  }
+  100% {
+    color: ghostwhite;
+  }
 }
 
-h2{ font-family: 'Monoton', cursive;
-}
 
-h3 {font-family: 'Bungee Inline', cursive;
-}
-
-h4 {font-family: 'Zilla Slab Highlight', cursive;
-}
-
-h6 {font-family: 'Barriecito', cursive;
-}
-
-#skies {
-	font-size: 200px;
-}
-
-#earth { 
-font-size: 80px;
+#skies { 
+font-size: 150px;
+font-family: 'Calistoga', cursive;
 text-align: center;
-line-height: 100px;
- }
+color: darkgoldenrod;
+}
 
- #reality p{
- 	font-size: 50px;
- }
+#skies a {
+	text-decoration: none;
+	animation: pulse01 1s infinite;
+	animation-timing-function: linear;
+}
 
- #reality h1{
+#skies a:visited {
+  color: black;
+}
+
+#skies a:link {
+ 	color: black;
+}
+
+#skies a:hover {
+	color: black;
+}
+
+#earth {
+	background-color: yellowgreen;
+	animation: pulse02 1s infinite;
+	animation-timing-function: ease-in-out;
+	color: white;
+ 	height: 600px;
  	text-align: center;
- }
+ 	font-size: 50px;
+ 	font-family: 'Calistoga', cursive;
+ 	border-radius: 50%;
+ 	padding: 2%;
+}
 
+#earth a { 
+text-decoration: none; 
+}
 
- #reality h6{
- 	font-size: 300px;
- 	text-align: right;
- 	position: relative;
- 	bottom: 550px;
- }
+#earth a:visited {
+	color:  tan;
+}
 
+#earth a:link {
+	color: tan;
+}
 
-#bummer { 
-font-size: 30px;
-vertical-align: center; }
+#earth a:hover {
+	color: tan;
+}
+
+@keyframes pulse02 {
+  0% {
+    background-color: yellowgreen;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+#reality {
+	text-align: center;
+	color: lightblue;
+	padding-top: 50%;
+	padding-bottom: 50%;
+	
+}
+
+#reality:hover {
+	background:tomato;
+}
+
+#bummer{
+	font-size: 150px;
+	color: white;
+	text-align: right;
+
+}
 
 #hope{
- border: 2px dotted;
- text-align: center;
- font-size: 50px;
+color: yellow;
 }
 
-#part {
-	font-size: 25px;
+#hope a{
+	text-decoration: none;
+
 }
 
-
-#title {
-	text-align: center;
-	border: 2px solid;
-	font-size: 40px;
-	font-family: 'Shrikhand', cursive;
+#hope a:visited {
+	color: gold;	
 }
 
-#title p {
-	font-family: 'Shrikhand', cursive;
+#hope a:hover {
+	color: ghostwhite;
 }
 
 
+#part{
+	color: coral;
 
+}
+
+#part a {
+	text-decoration: none;
+}
+
+#part a:visited {
+	color: coral
+}
+
+#part a:hover {
+	color: lightcoral;
+}
 
 
 
