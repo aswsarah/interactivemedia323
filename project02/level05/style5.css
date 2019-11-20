@@ -1,0 +1,95 @@
+body {
+	margin:auto;
+	font-family: 'Roboto', sans-serif;
+	font-size: 100px;
+	text-align: center
+}
+
+#one{
+	background-color: rgb(19, 21, 64);
+	color: rgb(19, 21, 64);
+}
+
+#one:hover{
+	color:ghostwhite;
+}
+
+#two{
+	background-color: rgb(24, 26, 79);
+	color: rgb(24, 26, 79);
+}
+
+#two:hover{color:ghostwhite;}
+
+#three{
+	background-color: rgb(21, 59, 53);
+	color: rgb(21, 59, 53);
+}
+
+#three:hover{color:ghostwhite;}
+
+#four{background-color: rgb(19, 54, 24);
+	color: rgb(19, 54, 24);}
+
+#four:hover{color:ghostwhite;}
+
+#five{
+	background-color: rgb(68, 87, 35);
+	color:rgb(68, 87, 35);
+}
+
+#five:hover{color:ghostwhite;}
+
+#six{
+	background-color: rgb(184, 182, 62);
+	color: rgb(184, 182, 62);
+}
+
+#six:hover{color:ghostwhite;}
+
+#seven{
+	background-color: rgb(222, 219, 31);
+	color: rgb(222, 219, 31);
+}
+
+#seven:hover{color:ghostwhite;}
+
+#eight{
+	background-color: rgb(222, 184, 31);
+	color: rgb(222, 184, 31);
+}
+
+#eight:hover{color:ghostwhite;}
+
+#nine{
+	background-color: rgb(222, 142, 31);
+	color: rgb(222, 142, 31);
+}
+
+#nine:hover{color:ghostwhite;}
+
+#ten{
+	background-color: rgb(255, 148, 0);
+	color: rgb(255, 148, 0);
+}
+
+#ten:hover{color:ghostwhite;}
+
+#eleven{
+	background-color: rgb(255, 111, 0);
+	color: rgb(255, 111, 0);
+}
+
+#eleven:hover{color:ghostwhite;}
+
+#twelve{
+	background-color: rgb(189, 55, 40);
+	color: rgb(189, 55, 40);
+}
+
+#twelve:hover{color:ghostwhite;}
+
+
+
+
+

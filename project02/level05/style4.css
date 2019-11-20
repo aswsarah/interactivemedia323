@@ -1,5 +1,84 @@
 body {
 	margin: auto;
 	background-color: cadetblue;
+	font-family: 'Fredoka One', cursive;
 
 }
+
+#sky {
+	font-size: 300px;
+	color: gold;
+}
+
+#earth {
+	font-size: 200px;
+}
+
+#earth:hover {
+	color:yellowgreen;
+}
+
+#reality {
+	text-align: center;
+	animation: pulse .5s infinite;
+  	animation-timing-function: linear;
+  	font-size: 100px;
+}
+
+@keyframes pulse {
+  0% {
+    color: ghostwhite;
+  }
+  100% {
+    color: coral;
+  }
+}
+
+#bummer{
+	text-align: center;
+	font-size: 50px;
+	color: white;
+	cursor:pointer;
+	transition: 1s;
+}
+
+#bummer:hover {
+	transform: rotate(360deg);
+}
+
+#hope {
+ font-size: 150px;
+ text-align: right;
+ -webkit-text-fill-color: cadetblue;
+  -webkit-text-stroke-width: 5px ;
+  -webkit-text-stroke-color: white;
+}
+
+#part a {
+ 	text-decoration: none;
+}
+
+#part a:visited {
+	color:black;
+}
+
+#part a:link {
+	color:black;
+}
+
+#part a:hover {
+	color: lightgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
