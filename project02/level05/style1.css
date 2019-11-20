@@ -48,6 +48,14 @@ text-align: center;
  	text-align: center;
  }
 
+ #sky00{
+	opacity: 0;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+	}
+
  #sky01{
 	opacity: 0;
 	animation-name: appear;

@@ -12,31 +12,39 @@ padding-bottom: 2%;
 
 #title {
 	border: 2px solid;
-	position: fixed;
-	display: block;
+	position: sticky;
+	top: 0;
+	padding: 50px;
 }
 
 #sky {
-	position: relative;
-	left: 50%;
-	right: 50%;
+	position: sticky;
+	float: right;
 	border: 1px dotted;
+	padding: 25%;
+	top: 0;
 }
 
 #earth {
-	position: relative;
+	position: sticky;
 	border: 1px solid;
+	padding: 25%;
+	top: 0;
 }
 
 #hope {
-	position: relative;
+	position: sticky;
 	left: 50%;
 	right: 50%;
+	padding: 25%;
+	top: 0;
 
 }
 
 #author {
-	position: relative;
+	position: sticky;
 	float:right;
 	border: .5px solid;
+	padding: 25%;
+	top: 0;
 }

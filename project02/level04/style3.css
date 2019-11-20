@@ -12,22 +12,22 @@ background: black;
 }
 
 h2{
-	font-family: 'Crushed', cursive;
+	font-family: 'Rubik', sans-serif;
 	text-align: center;
 }
 
 h5{
-	font-family: 'Fontdiner Swanky', cursive;
+	font-family: 'Rubik', sans-serif;
 	font-size: 90px;
 }
 
 h1{
-	font-family: 'Rammetto One', cursive;
+	font-family: 'Rubik', sans-serif;
 	text-align: center;
 }
 
 p{
-	font-family: 'Spirax', cursive;
+	font-family: 'Rubik', sans-serif;
 	font-size: 50px;
 }
 
@@ -38,12 +38,12 @@ h3{
 
 
 h4{
-	font-family: 'Ranchers', cursive;
+	font-family: 'Rubik', sans-serif;
 	font-size: 150px;
 }
 
 h6{
-	font-family: 'Kranky', cursive;
+	font-family: 'Rubik', sans-serif;
 	font-size: 25px;
 }
 

@@ -25,26 +25,26 @@ padding-bottom: 2%;
 #earth {
 	text-align: center;
 	font-size: 75px;
-	font-family: 'Ribeye', cursive;
+	font-family: 'Rubik', sans-serif;
 	border: 5px solid;
 }
 
 #reality {
 	text-align: left;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Rubik', sans-serif;
 	font-size: 25px;
 
 }
 
 #bummer {
 	text-align: right;
-	font-family: 'Amatic SC', cursive;
+	font-family: 'Rubik', sans-serif;
 	font-size: 25px;
 
 }
 
 #hope {
-	font-family: 'Dancing Script', cursive;
+	font-family: 'Rubik', sans-serif;
 	font-size: 30px;
 }
 

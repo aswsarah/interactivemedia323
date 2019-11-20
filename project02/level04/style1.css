@@ -11,26 +11,10 @@ padding-bottom: 2%;
 background: black;
 }
 
-#first {
-	background: white;
-	height: 50%;
-}
-
-
-#title {
-	
-	text-align: center;
-}
-
-#author {
-	line-height: 1px;
-	
-	text-align: center;
-}
-
 #upper-sky {
 	text-align: center;
 	color: white;
+	letter-spacing: 10px;
 	
 }
 
@@ -43,6 +27,7 @@ background: black;
 #truth {
 	color: white;
 	text-align: center;
+	letter-spacing: 10px;
 
 }
 

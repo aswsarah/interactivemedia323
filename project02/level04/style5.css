@@ -1,71 +1,65 @@
-body {
-	
-margin-left: auto;
-margin-right: auto;
-margin-top: auto;
-margin-bottom: auto;
-padding-left: 2%;
-padding-right: 2%;
-padding-top:2%;
-padding-bottom: 2%;
-
-}
-
-#title {
-	text-align: center;
-	font-size: 100px;
-	color: white;
-	background: black;
-}
-
-
 #skies {
+	position: relative;
 	text-align: center; 
 	font-size: 70px;
+	background: black;
+	color: white;
 }
 
 
 #earth{
+	position: relative;
 text-align: center; 
 font-size: 60px;
-background: black;
+background: dimgrey;
 color: white;
 }
 
 
 #reality{
+	position: relative;
 text-align: center; 
 font-size: 50px;
+background: grey;
+color: white;
 }
 
 
 #bummer{
+	position: relative;
 text-align: center; 
 font-size: 40px;
-background: black;
+background: darkgrey;
 color: white;
 text-transform: uppercase;
 }
 
 
 #hope{
+	position: relative;
 text-align: center; 
 font-size: 30px;
+background: silver;
+color: white;
 
 }
 
 
 #part{
+	position: relative;
 text-align: center; 
 font-size: 20px;
-background: black;
+background: lightgrey;
 color: white;
 }
 
 
 #author{
+	position: relative;
 text-align: center; 
 font-size: 10px;
+background: gainsboro;
+color: white;
 }
 
 
