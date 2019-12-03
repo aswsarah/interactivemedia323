@@ -1,0 +1,33 @@
+body{
+	background-color: black;
+	margin: auto;
+	padding:35%;
+}
+
+
+
+.words{
+font-family: 'Bitter', serif;
+color: white;
+text-shadow: 0 0 10px white;
+font-size: 30px;
+position: relative;
+filter: blur(10px);
+text-align: center;
+}
+
+.words:hover{
+	filter: blur(0px);
+}
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+

@@ -1,0 +1,45 @@
+body{
+	background-color: black;
+	margin-top: 10%;
+}
+
+
+
+.words1{
+font-family: 'Libre Baskerville', serif;
+color: white;
+text-shadow: 0 0 10px white;
+font-size: 75px;
+position: relative;
+}
+
+.words2{
+font-family: 'Libre Baskerville', serif;
+color: white;
+text-shadow: 0 0 10px white;
+font-size: 75px;
+position: relative;
+left: 25%;
+}
+
+.words3{
+font-family: 'Libre Baskerville', serif;
+color: white;
+text-shadow: 0 0 10px white;
+font-size: 75px;
+position: relative;
+}
+
+
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+

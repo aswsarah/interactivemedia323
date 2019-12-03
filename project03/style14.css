@@ -1,0 +1,42 @@
+body{
+	background-color: black;
+	margin: auto;
+	padding:35%;
+}
+
+
+
+.words{
+font-family: 'Bitter', serif;
+color: white;
+text-shadow: 0 0 10px white;
+font-size: 30px;
+position: relative;
+animation: pulse 1s infinite;
+}
+
+}
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+
+.element {
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: grey;
+  }
+  100% {
+    color: white;
+  }
+}
