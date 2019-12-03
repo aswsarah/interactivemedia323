@@ -1,0 +1,45 @@
+body{
+	margin: auto;
+	background-color: black;
+}
+
+
+.words{
+font-family: 'Bitter', serif;
+color: white;
+text-shadow: 0 0 10px white;
+font-size: 200px;
+}
+
+#two{
+	opacity: .6;
+}
+
+#three{
+	opacity: .5;
+}
+
+#four{
+	opacity: .4;
+}
+
+#five{
+	opacity: .3;
+}
+
+#six{
+	opacity: .2;
+}
+
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+

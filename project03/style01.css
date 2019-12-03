@@ -1,0 +1,42 @@
+body {
+	margin: auto;
+	background-color: black;
+}
+
+.title {
+  position: relative;
+  padding-top: 20%;
+  font-family: 'Arvo', serif;
+  font-size: 200px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 10px white;
+
+}
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+
+a:hover {
+	animation-name: grow;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+
+}
+
+@keyframes grow {
+	from {
+		font-size: 200px;
+	}
+	to {
+		font-size: 300px;
+	}
+}

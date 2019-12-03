@@ -1,0 +1,29 @@
+body{
+	margin: auto;
+	background-color: yellowgreen;
+}
+
+.words{
+	color: orange;
+	font-family: 'Comfortaa', cursive;
+	font-size: 300px;
+	text-shadow: 10px 10px darkorange;
+	text-align: center;
+}
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: orange;
+}
+
+a:link {
+	color: orange;
+}
+
+a:hover{
+	color:darkorange;
+	text-shadow: 10px 10px orange;
+}
+

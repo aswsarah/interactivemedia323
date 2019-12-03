@@ -1,0 +1,28 @@
+.words{
+	font-family: 'Libre Baskerville', serif;
+	position: absolute;
+	padding: 5%;
+	border: 500px solid;
+	margin: auto;
+	display: block;
+	float: right;
+	font-size: 25px;
+}
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: black;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover{
+	text-shadow: 0 0 3px midnightblue;
+
+
+}
+

@@ -1,0 +1,29 @@
+body{
+	margin: auto;
+	background-color: black;
+}
+
+
+.words{
+position: absolute;
+left: 10%;
+top:50%;
+font-family: 'Bitter', serif;
+color: white;
+text-shadow: 0 0 10px white;
+font-size: 50px;
+text-align: center;
+}
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+
+
