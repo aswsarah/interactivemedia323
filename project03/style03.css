@@ -1,13 +1,13 @@
 body{
 	margin: auto;
-	background-color: yellowgreen;
+	background-color: olivedrab;
+	padding-top: 10%;
 }
 
 .words{
-	color: orange;
-	font-family: 'Comfortaa', cursive;
-	font-size: 300px;
-	text-shadow: 10px 10px darkorange;
+	color: darkorange;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 200px;
 	text-align: center;
 }
 
@@ -15,15 +15,15 @@ a {
 text-decoration: none; }
 
 a:visited {
-	color: orange;
+	color: darkorange;
 }
 
 a:link {
-	color: orange;
+	color: darkorange;
 }
 
 a:hover{
-	color:darkorange;
-	text-shadow: 10px 10px orange;
+	color: orange;
+	
 }
 

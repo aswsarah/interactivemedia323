@@ -1,0 +1,157 @@
+body{
+	margin: auto;
+	background-color: black;
+}
+
+
+.words{
+font-family: 'Gupter', serif;
+color: white;
+text-shadow: 0 0 10px white;
+font-size: 100px;
+}
+
+#two{
+	opacity: .6;
+}
+
+#three{
+	opacity: .5;
+}
+
+#four{
+	opacity: .4;
+}
+
+#five{
+	opacity: .3;
+}
+
+#six{
+	opacity: .2;
+}
+
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+
+.eye {
+	width: 200px;
+	height: 200px;
+	background: white;
+	position: absolute;
+	top: 25%;
+	left: 35%;
+	transform: translate(-50%, 50%) rotate(45deg);
+	border-radius: 75% 0;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.ball{
+	width: 40px;
+	height: 40px;
+	background: #222f3e;
+	border-radius: 50%;
+	border: 30px solid #576574;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.shut {
+	width: 300px;
+	height: 160px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+	z-index: 999;
+
+}
+
+.shut span {
+	display: block;
+	width: 100%;
+	height: 20%;
+	background: dimgrey;
+	border-radius: (0 0 60% 60%);
+	transition: 0.4s all;
+}
+
+.eye:hover > .shut span {
+	height: 100%;
+}
+
+.eye1 {
+	width: 200px;
+	height: 200px;
+	background: white;
+	position: absolute;
+	top: 25%;
+	left: 65%;
+	transform: translate(-50%, 50%) rotate(45deg);
+	border-radius: 75% 0;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.ball1{
+	width: 40px;
+	height: 40px;
+	background: #222f3e;
+	border-radius: 50%;
+	border: 30px solid #576574;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+.shut1 {
+	width: 300px;
+	height: 160px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(-45deg);
+	z-index: 999;
+
+}
+
+.shut1 span {
+	display: block;
+	width: 100%;
+	height: 20%;
+	background: dimgrey;
+	border-radius: (0 0 60% 60%);
+	transition: 0.4s all;
+}
+
+.eye1:hover > .shut1 span {
+	height: 100%;
+}
+
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+

@@ -1,28 +1,32 @@
+
+body{
+	background-color: cadetblue;
+}
+
 .words{
-	font-family: 'Libre Baskerville', serif;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 50px;
 	position: absolute;
-	padding: 5%;
-	border: 500px solid;
-	margin: auto;
-	display: block;
-	float: right;
-	font-size: 25px;
+	padding:25%;
+	
 }
 
 a { 
-text-decoration: none; }
+text-decoration: none;
+animation: flicker .4s infinite; }
 
 a:visited {
-	color: black;
+	color: white;
 }
 
 a:link {
-	color: black;
+	color: white;
 }
 
-a:hover{
-	text-shadow: 0 0 3px midnightblue;
 
-
+@keyframes flicker {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
 }
-

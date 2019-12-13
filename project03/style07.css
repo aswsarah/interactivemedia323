@@ -1,29 +1,29 @@
 body{
 	margin: auto;
-	background-color: black;
+	background-color: olivedrab;
+	padding-top: 10%;
 }
 
-
 .words{
-position: absolute;
-left: 10%;
-top:50%;
-font-family: 'Bitter', serif;
-color: white;
-text-shadow: 0 0 10px white;
-font-size: 50px;
-text-align: center;
+	color: darkorange;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 200px;
+	text-align: center;
 }
 
 a { 
 text-decoration: none; }
 
 a:visited {
-	color: white;
+	color: darkorange;
 }
 
 a:link {
-	color: white;
+	color: darkorange;
 }
 
+a:hover{
+	color: orange;
+	
+}
 

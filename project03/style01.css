@@ -1,18 +1,65 @@
 body {
 	margin: auto;
 	background-color: black;
+	padding: 2%;
 }
 
 .title {
   position: relative;
   padding-top: 20%;
-  font-family: 'Arvo', serif;
+  font-family: 'Bree Serif', serif;
   font-size: 200px;
   color: white;
-  text-align: center;
   text-shadow: 0 0 10px white;
-
+  line-height: 75px;
 }
+
+#one {
+	opacity: 0;
+	position: relative;
+	animation-name: appear;
+	animation-delay: 2s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+#two {
+	opacity: 0;
+	position: relative;
+	animation-name: appear;
+	animation-delay: 4s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+#three {
+	opacity: 0;
+	position: relative;
+	animation-name: appear;
+	animation-delay: 6s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+#four {
+	opacity: 0;
+	position: relative;
+	animation-name: appear;
+	animation-delay: 8s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+#five {
+	opacity: 0;
+	position: relative;
+	animation-name: appear;
+	animation-delay: 10s;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+
+
 
 a { 
 text-decoration: none; }
@@ -37,6 +84,15 @@ a:hover {
 		font-size: 200px;
 	}
 	to {
-		font-size: 300px;
+		font-size: 400px;
 	}
+}
+
+@keyframes appear {
+	from{
+		opacity: 0;
+	}
+	to{ 
+	 	opacity: 1;
+	 	 }
 }

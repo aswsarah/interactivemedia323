@@ -1,21 +1,21 @@
+
 body{
-	margin: auto;
 	background-color: black;
+	margin: auto;
 }
 
-
 .words{
-position: absolute;
-left: 10%;
-top:50%;
-font-family: 'Bitter', serif;
-color: white;
-text-shadow: 0 0 10px white;
-font-size: 50px;
-text-align: center;
-animation-name: appear;
-animation-duration: 7s;
-animation-fill-mode: forwards;
+	position: absolute;
+	font-family: 'Gupter', serif;
+  	font-size: 150px;
+  	color: white;
+  	text-align: center;
+  	text-shadow: 0 0 10px white;
+  	top: 50%;
+  	left: 50%;
+  	right: 50%;
+  	animation: tight 3s forwards;
+
 }
 
 a { 
@@ -29,11 +29,13 @@ a:link {
 	color: white;
 }
 
-@keyframes appear {
-	from { opacity: 0;}
-	to{ opacity: 1 }
+a:hover{
+	color: black;
 
 }
 
+@keyframes tight{
 
-
+	from { font-size: 150px; }
+	to{ font-size: 20px; }
+}

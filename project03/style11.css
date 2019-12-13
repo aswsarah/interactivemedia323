@@ -6,7 +6,7 @@ body{
 
 
 .words1{
-font-family: 'Bitter', serif;
+font-family: 'Gupter', serif;
 color: white;
 text-shadow: 0 0 10px white;
 font-size: 50px;
@@ -14,7 +14,7 @@ position: relative;
 }
 
 .words2{
-font-family: 'Bitter', serif;
+font-family: 'Gupter', serif;
 color: white;
 text-shadow: 0 0 10px white;
 font-size: 50px;
@@ -23,7 +23,7 @@ left: 15%;
 }
 
 .words3{
-font-family: 'Bitter', serif;
+font-family: 'Gupter', serif;
 color: white;
 text-shadow: 0 0 10px white;
 font-size: 50px;
@@ -32,7 +32,7 @@ left: 50%;
 }
 
 .words4{
-font-family: 'Bitter', serif;
+font-family: 'Gupter', serif;
 color: white;
 text-shadow: 0 0 10px white;
 font-size: 50px;
@@ -40,7 +40,7 @@ position: relative;
 left:75%;
 animation-name: run;
 animation-duration: 3s;
-animation-delay: 3s;
+animation-delay: 2s;
 }
 
 
@@ -53,6 +53,10 @@ a:visited {
 
 a:link {
 	color: white;
+}
+
+a:hover {
+	color: black;
 }
 
 

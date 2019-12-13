@@ -1,0 +1,461 @@
+
+body{
+	background-color: cadetblue;
+}
+
+.one{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 50px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 8s;
+	animation-fill-mode: forwards;
+	left: 20%;
+	top: 20%;
+	
+}
+.two{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 25px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	left: 80%;
+	bottom: 10%;
+	
+	
+}
+.three{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 100px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 2s;
+	animation-fill-mode: forwards;
+	left: 15%;
+	top: 50%;
+	
+}
+.four{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 60px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+	left: 90%;
+	top: 70%;
+	
+	
+}
+.five{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 4s;
+	animation-fill-mode: forwards;
+	left: 20%;
+	top: 60%;
+	
+	
+}
+.six{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 40px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 5s;
+	animation-fill-mode: forwards;
+    left: 13%;
+	top: 93%;
+	
+}
+.seven{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 90px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 6s;
+	animation-fill-mode: forwards;
+	left: 80%;
+	top: 2%;
+	
+	
+}
+.eight{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 200px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 7s;
+	animation-fill-mode: forwards;
+	left: 90%;
+	top: 70%;
+	
+}
+.nine{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 70px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 8s;
+	animation-fill-mode: forwards;
+	left: 50%;
+	top: 50%;
+	
+	
+}
+.ten{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 9s;
+	animation-fill-mode: forwards;
+	left: 25%;
+	top: 25%;
+	
+	
+}
+.eleven{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 6px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 1.5s;
+	animation-fill-mode: forwards;
+	left: 10%;
+	top: 10%;
+	
+	
+}
+.twelve{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 150px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 2.5s;
+	animation-fill-mode: forwards;
+	left: 30%;
+	top: 30%;
+	
+	
+}
+.thirteen{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 35px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 3.5s;
+	animation-fill-mode: forwards;
+	left: 40%;
+	top: 40%;
+	
+	
+}
+.fourteen{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 98px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 4.5s;
+	animation-fill-mode: forwards;
+	left: 60%;
+	top: 60%;
+	
+	
+}
+.fifteen{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 63px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 5.5s;
+	animation-fill-mode: forwards;
+	left: 80%;
+	top: 80%;
+	
+	
+}
+.sixteen{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 44px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 6.5s;
+	animation-fill-mode: forwards;
+	left: 90%;
+	top: 90%;
+	
+	
+}
+.seventeen{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 17px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 7.5s;
+	animation-fill-mode: forwards;
+	left: 43%;
+	top: 89%;
+	
+	
+}
+.eighteen{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 2px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 8.5s;
+	animation-fill-mode: forwards;
+	left: 90%;
+	top: 3%;
+	
+	
+}
+.nineteen{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 101px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 9.5s;
+	animation-fill-mode: forwards;
+	left: 76%;
+	top: 70%;
+	
+	
+}
+.twenty{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 85px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 10s;
+	animation-fill-mode: forwards;
+	
+	
+}
+.twenty-one{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 94px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 11s;
+	animation-fill-mode: forwards;
+	left: 15%;
+	top: 15%;
+	
+	
+}
+.twenty-two{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 71.5px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 12s;
+	animation-fill-mode: forwards;
+	left: 7%;
+	top: 7%;	
+	
+}
+.twenty-three{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 8px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 13s;
+	animation-fill-mode: forwards;
+	left: 9%;
+	top: 9%;
+	
+	
+}
+.twenty-four{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 300px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 14s;
+	animation-fill-mode: forwards;
+	left: 8%;
+	top: 8%;
+	
+	
+}
+.twenty-five{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 90px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 15s;
+	animation-fill-mode: forwards;
+	left: 22%;
+	top: 8%;
+	
+	
+}
+.twenty-six{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 52px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 10.5s;
+	animation-fill-mode: forwards;
+	left: 33%;
+	top: 43%;
+	
+	
+}
+.twenty-seven{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 34px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 11.5s;
+	animation-fill-mode: forwards;
+	
+	
+}
+.twenty-eight{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 43px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 12.5s;
+	animation-fill-mode: forwards;
+	
+	
+}
+.twenty-nine{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 29px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 13.5s;
+	animation-fill-mode: forwards;
+	
+	
+}
+.thirty{
+	opacity: 0;
+	font-family: 'Bree Serif', serif;
+	color: white;
+	font-size: 99px;
+	position: absolute;
+	animation-name: appear;
+	animation-duration: .5s;
+	animation-delay: 14.5s;
+	animation-fill-mode: forwards;
+	
+	
+}
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+
+a:hover{
+color: paleturquoise;
+}
+
+
+@keyframes appear {
+    0%   { opacity: 0; }
+  	100% { opacity: 1; }
+}

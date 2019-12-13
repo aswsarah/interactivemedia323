@@ -1,41 +1,29 @@
 body{
 	margin: auto;
-	background-color: black;
+	background-color: olivedrab;
+	padding-top: 10%;
 }
 
-
 .words{
-position: absolute;
-top: 30%;
-font-family: 'Bitter', serif;
-color: white;
-text-shadow: 0 0 10px white;
-font-size: 100px;
+	color: darkorange;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 200px;
+	text-align: center;
 }
 
 a { 
 text-decoration: none; }
 
 a:visited {
-	color: white;
+	color: darkorange;
 }
 
 a:link {
-	color: white;
+	color: darkorange;
 }
 
-a:hover {
-	animation-name: grow;
-	animation-duration: 1s;
-	animation-fill-mode: forwards;
-
+a:hover{
+	color: orange;
+	
 }
 
-@keyframes grow {
-	from {
-		font-size: 100px;
-	}
-	to {
-		font-size: 150px;
-	}
-}

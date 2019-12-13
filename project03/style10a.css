@@ -13,9 +13,6 @@ color: white;
 text-shadow: 0 0 10px white;
 font-size: 50px;
 text-align: center;
-animation-name: appear;
-animation-duration: 7s;
-animation-fill-mode: forwards;
 }
 
 a { 
@@ -29,16 +26,8 @@ a:link {
 	color: white;
 }
 
-a:hover{
-	
-	color:black;
+a:hover {
+	color: black;
 }
-
-@keyframes appear {
-	from { opacity: 0;}
-	to{ opacity: 1 }
-
-}
-
 
 

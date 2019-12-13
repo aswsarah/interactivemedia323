@@ -1,42 +1,29 @@
 body{
-	background-color: black;
 	margin: auto;
-	padding:35%;
+	background-color: olivedrab;
+	padding-top: 10%;
 }
-
-
 
 .words{
-font-family: 'Bitter', serif;
-color: white;
-text-shadow: 0 0 10px white;
-font-size: 30px;
-position: relative;
-animation: pulse 1s infinite;
-}
-
+	color: darkorange;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 200px;
+	text-align: center;
 }
 
 a { 
 text-decoration: none; }
 
 a:visited {
-	color: white;
+	color: darkorange;
 }
 
 a:link {
-	color: white;
+	color: darkorange;
 }
 
-.element {
-  animation: pulse 5s infinite;
+a:hover{
+	color: orange;
+	
 }
 
-@keyframes pulse {
-  0% {
-    color: grey;
-  }
-  100% {
-    color: white;
-  }
-}
