@@ -1,0 +1,62 @@
+body{
+	margin: auto;
+	background-color: yellowgreen;
+	padding-top: 10%;
+}
+
+.words1{
+	color: darkorange;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 100px;
+	position: sticky;
+	top: 0;
+}
+
+.words2{
+	color: darkorange;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 100px;
+	position: sticky;
+	top: 0;
+}
+
+.words3{
+	color: darkorange;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 100px;
+	position: sticky;
+	top: 0;
+}
+
+.words4{
+	color: darkorange;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 100px;
+	position: sticky;
+	top: 0;
+}
+
+.words5{
+	color: darkorange;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 100px;
+	position: sticky;
+	top: 0;
+}
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: darkorange;
+}
+
+a:link {
+	color: darkorange;
+}
+
+a:hover{
+	color: orange;
+	
+}
+

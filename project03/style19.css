@@ -1,0 +1,29 @@
+body{
+	margin: auto;
+	background-color: olivedrab;
+	padding-top: 10%;
+}
+
+.words{
+	color: darkorange;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 200px;
+	text-align: center;
+}
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: darkorange;
+}
+
+a:link {
+	color: darkorange;
+}
+
+a:hover{
+	color: orange;
+	
+}
+

@@ -1,0 +1,30 @@
+body{
+	margin: auto;
+	background-color: black;
+	
+}
+
+
+.words{
+height: 1000px:
+width: 1000px;
+background: black;
+}
+
+
+a { 
+text-decoration: none; }
+
+a:visited {
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+
+a:hover {
+	color: black;
+	text-shadow: 0 0 10px white;
+
+}
